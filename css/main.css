@@ -12043,3 +12043,7 @@ p {
     height: auto;
     width: 35%;
 }
+
+.roadmap-title {
+    font-size: 150px;
+}
