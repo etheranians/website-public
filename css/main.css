@@ -592,9 +592,6 @@ body {
     line-height: 1.5;
     /* color: #ffffff;
     background-color: #282930 */
-    background: linear-gradient(-45deg, #282930, #361e52, #421a46, #22095a);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -11220,7 +11217,9 @@ html body {
 
 html {
     height: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background: linear-gradient(-45deg, #282930, #361e52, #421a46, #22095a) fixed;
+    animation: gradient 15s ease infinite;
 }
 
 html body {
