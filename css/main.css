@@ -10504,7 +10504,7 @@ h5,
 h6 {
     font-weight: 700;
     line-height: normal;
-    color: #000;
+    color: #8f3c95;
     margin-bottom: 8px
 }
 
@@ -12044,6 +12044,7 @@ p {
     width: 35%;
 }
 
-.roadmap-title {
-    font-size: 150px;
+.roadmap-logo {
+    height: auto;
+    width: 60%;
 }
