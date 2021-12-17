@@ -12066,3 +12066,9 @@ p {
     height: auto;
     width: 28%;
 }
+
+.slideshow-logo {
+    height: auto;
+    width: 40%;
+    margin-bottom: 5%;
+}
