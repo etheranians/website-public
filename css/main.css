@@ -12046,5 +12046,23 @@ p {
 
 .roadmap-logo {
     height: auto;
-    width: 60%;
+    width: 50%;
+}
+
+.faq-box {
+    background-color: #772f81;
+}
+
+.faq-title {
+    color: white;
+}
+
+.faq-logo {
+    height: auto;
+    width: 18%;
+}
+
+.team-logo {
+    height: auto;
+    width: 28%;
 }
