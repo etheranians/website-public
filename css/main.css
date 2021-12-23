@@ -11239,7 +11239,7 @@ html body ::-moz-selection {
 }
 
 html body ::selection {
-    background-color: #e93e34;
+    background-color: #cc00ff;
     color: #fff
 }
 
@@ -12042,7 +12042,7 @@ p {
 
 .roadmap-img {
     height: auto;
-    width: 35%;
+    width: 30%;
 }
 
 .roadmap-logo {
