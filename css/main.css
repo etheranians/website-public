@@ -12007,6 +12007,17 @@ p {
 
 /* Select the image and make it absolute to the container */
 
+@media (min-width:200px) {
+    .swap-on-hover img {
+        position: absolute;
+        top: -95px;
+        left: -10px;
+        overflow: hidden;
+        width: 105%;
+        height: auto;
+    }  
+}
+
 @media (min-width:576px) {
     .swap-on-hover img {
         position: absolute;
@@ -12051,14 +12062,14 @@ p {
     }
 }
 
-.swap-on-hover img {
+/* .swap-on-hover img {
     position: absolute;
     top: -200px;
     left: -95px;
     overflow: hidden;
     width: 160%;
     height: auto;
-}
+} */
 
 /* 
       We set z-index to be higher than the back image, so it's alwyas on the front.
