@@ -11717,7 +11717,8 @@ textarea:focus {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #000
+    background-color: #000;
+    z-index: 0;
 }
 
 .footer .container {
@@ -12153,4 +12154,13 @@ p {
     width: 90%;
     border-radius: 10px;
     margin-top: 5%;
+}
+
+.video-background {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
