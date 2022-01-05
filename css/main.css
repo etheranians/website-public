@@ -12010,56 +12010,61 @@ p {
 
 @media (min-width:200px) {
     .swap-on-hover img {
-        position: absolute;
-        top: -95px;
-        left: -10px;
+        /* position: absolute; */
+        /* top: -95px; */
+        /* left: -10px; */
         overflow: hidden;
         width: 105%;
         height: auto;
+        margin-top: 142%;
     }  
 }
 
 @media (min-width:576px) {
     .swap-on-hover img {
-        position: absolute;
-        top: -95px;
-        left: -10px;
+        /* position: absolute; */
+        /* top: -95px; */
+        /* left: -10px; */
         overflow: hidden;
         width: 105%;
         height: auto;
+        margin-top: 142%;
     }  
 }
 
 @media (min-width:768px) {
     .swap-on-hover img {
-        position: absolute;
-        top: -95px;
-        left: -10px;
+        /* position: absolute; */
+        /* top: -95px; */
+        /* left: -10px; */
         overflow: hidden;
         width: 105%;
         height: auto;
+        margin-top: 142%;
     }  
 }
 
 @media (min-width:992px) {
     .swap-on-hover img {
-        position: absolute;
-        top: -200px;
-        left: -125px;
+        /* position: absolute; */
+        /* top: -200px; */
+        /* left: -125px; */
         overflow: hidden;
         width: 160%;
         height: auto;
+        margin-top: 142%;
     }
 }
 
 @media (min-width:1200px) {
     .swap-on-hover img {
-        position: absolute;
-        top: -200px;
-        left: -125px;
+        /* position: absolute; */
+        /* top: -200px; */
+        /* left: -125px; */
         overflow: hidden;
         width: 160%;
         height: auto;
+        margin-top: 0%;
     }
 }
 
@@ -12102,7 +12107,7 @@ p {
 
 .roadmap-logo {
     height: auto;
-    width: 70%;
+    width: 80%;
 }
 
 .faq-box {
