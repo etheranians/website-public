@@ -12107,6 +12107,11 @@ p {
 
 .roadmap-logo {
     height: auto;
+    width: 45%;
+}
+
+.showcase-logo {
+    height: auto;
     width: 80%;
 }
 
@@ -12120,12 +12125,12 @@ p {
 
 .faq-logo {
     height: auto;
-    width: 18%;
+    width: 15%;
 }
 
 .team-logo {
     height: auto;
-    width: 28%;
+    width: 24%;
 }
 
 .slideshow-logo {
