@@ -10502,7 +10502,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: bolder;
     line-height: normal;
     color: #8f3c95;
     margin-bottom: 8px
@@ -10547,7 +10547,7 @@ h2 {
 
 h3 {
     font-size: 20px;
-    font-weight: 600
+    font-weight: bolder
 }
 
 @media (min-width:992px) {
