@@ -12165,8 +12165,8 @@ p {
     height: auto;
     width: 90%;
     border-radius: 10px;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    /* margin-top: 5%; */
+    margin-bottom: 10%;
 }
 
 .video-background {
