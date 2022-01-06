@@ -12108,7 +12108,7 @@ p {
 .roadmap-logo {
     height: auto;
     width: 45%;
-    margin-top: 13%;
+    /* margin-top: 13%; */
     margin-bottom: 13%;
 }
 
@@ -12138,7 +12138,7 @@ p {
 .slideshow-logo {
     height: auto;
     width: 40%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .fa {
