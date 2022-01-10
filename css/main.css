@@ -12192,9 +12192,9 @@ p {
   }
   
   .main-timeline .timeline {
-    width: 65%;
+    width: 100%;
     margin: 0 0 100px 20px;
-    float: right;
+    /* float: right; */
   }
   
   .main-timeline .timeline-content {
@@ -12219,7 +12219,7 @@ p {
   }
   
   .main-timeline .timeline:nth-child(even) {
-    float: left;
+    /* float: left; */
     margin: 0 20px 100px 0;
   }
   
