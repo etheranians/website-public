@@ -12002,7 +12002,7 @@ p {
 .swap-on-hover {
     position: relative;
     margin: 0 auto;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 
@@ -12014,9 +12014,9 @@ p {
         /* top: -95px; */
         /* left: -10px; */
         overflow: hidden;
-        width: 70%;
+        width: 50%;
         height: auto;
-        margin-top: 35%;
+        margin-top: 10%;
     }  
 }
 
@@ -12026,9 +12026,9 @@ p {
         /* top: -95px; */
         /* left: -10px; */
         overflow: hidden;
-        width: 70%;
+        width: 50%;
         height: auto;
-        margin-top: 35%;
+        margin-top: 10%;
     }  
 }
 
@@ -12038,9 +12038,9 @@ p {
         /* top: -95px; */
         /* left: -10px; */
         overflow: hidden;
-        width: 70%;
+        width: 50%;
         height: auto;
-        margin-top: 35%;
+        margin-top: 10%;
     }  
 }
 
@@ -12050,9 +12050,9 @@ p {
         /* top: -200px; */
         /* left: -125px; */
         overflow: hidden;
-        width: 160%;
+        width: 50%;
         height: auto;
-        /* margin-top: 142%; */
+        margin-top: 10%;
     }
 }
 
@@ -12062,9 +12062,9 @@ p {
         /* top: -200px; */
         /* left: -125px; */
         overflow: hidden;
-        width: 160%;
+        width: 50%;
         height: auto;
-        margin-top: 0%;
+        margin-top: 10%;
     }
 }
 
@@ -12115,6 +12115,7 @@ p {
 .showcase-logo {
     height: auto;
     width: 80%;
+    margin-bottom: 5%;
 }
 
 .faq-box {
@@ -12192,9 +12193,7 @@ p {
   }
   
   .main-timeline .timeline {
-    width: 100%;
-    margin: 0 0 100px 20px;
-    /* float: right; */
+    margin: 0 0 100px 0px;
   }
   
   .main-timeline .timeline-content {
@@ -12202,7 +12201,7 @@ p {
     background-color: #00000070;
     text-align: center;
     min-height: 125px;
-    padding: 30px 20px 30px 45px;
+    padding: 40px;
     border-radius: 15px;
     border: 2px solid #8f3c95;
     display: block;
@@ -12214,59 +12213,30 @@ p {
     width: 120px;
     transform: translateY(-50%);
     position: absolute;
-    left: -60px;
-    top: 50%;
+    left: 45%;
+    top: -8%;
   }
-  
-  .main-timeline .timeline:nth-child(even) {
-    /* float: left; */
-    margin: 0 20px 100px 0;
-  }
-  
-  .main-timeline .timeline:nth-child(even) .timeline-content {
-    padding: 30px 45px 30px 20px;
-  }
-  
-  .main-timeline .timeline:nth-child(even) .timeline-icon {
-    right: -63px;
-    left: auto;
-  }
-  
-  @media screen and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
     .main-timeline .timeline {
       width: 100%;
       padding-top: 40px;
     }
   
-    .main-timeline .timeline .timeline-content,
-    .main-timeline .timeline:nth-child(even) .timeline-content {
-      padding: 45px 20px 20px;
-    }
   
-    .main-timeline .timeline .timeline-icon,
-    .main-timeline .timeline:nth-child(even) .timeline-icon {
+    .main-timeline .timeline .timeline-icon {
       font-size: 28px;
       left: 50%;
-      top: -75px;
+      top: -90px;
       right: auto;
       transform: translateY(0) translateX(-50%);
     }
   
-    .main-timeline .timeline .timeline-icon:before,
-    .main-timeline .timeline .timeline-icon:after {
-      top: 50%;
-      left: -12px;
-      transform: translateY(-50%) translateX(0);
-    }
+}
   
-    .main-timeline .timeline .timeline-icon:after {
-      left: calc(100% + 6px);
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .main-timeline .title {
       font-size: 18px;
     }
-  }
+}
   
